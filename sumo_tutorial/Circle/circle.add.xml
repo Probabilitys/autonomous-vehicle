@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional>
+    <rerouter id="rerouter_0" edges="edge5">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="edge1" probability="0.5" />
+            <destProbReroute id="edge10" probability="0.5" />
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_1" edges="edge1">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="edge5"/>
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_2" edges="edge10">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="edge5"/>
+        </interval>
+    </rerouter>
+</additional>
