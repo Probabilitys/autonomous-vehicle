@@ -1,15 +1,15 @@
-file 117366 1689208124                                          
+file 117366 1689882058                                          
 version 2
-run Default-0-20230713-00:28:34-3684
+run Default-0-20230720-19:40:48-2968
 attr configname Default
-attr datetime 20230713-00:28:34
+attr datetime 20230720-19:40:48
 attr experiment Default
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network CircleNetwork
-attr processid 3684
+attr processid 2968
 attr repetition 0
 attr replication #0
 attr resultdir results
