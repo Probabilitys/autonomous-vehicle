@@ -22,6 +22,7 @@ using namespace omnetpp;
  * We also collect basic statistics (min, max, mean, std.dev.) and histogram
  * about the hop count which we'll print out at the end of the simulation.
  */
+
 class Txc15 : public cSimpleModule
 {
   private:
@@ -35,6 +36,7 @@ class Txc15 : public cSimpleModule
     virtual void forwardMessage(TicTocMsg15 *msg);
     virtual void initialize() override;
     virtual void handleMessage(cMessage *msg) override;
+    virtual void refreshDisplay() const override;
 
     // The finish() function is called by OMNeT++ at the end of the simulation:
     virtual void finish() override;
@@ -57,7 +59,10 @@ void Txc15::initialize()
     // Module 0 sends the first message
     if (getIndex() == 0) {
         // Boot the process scheduling the initial message as a self-message.
+        EV << "Generating message: ";
         TicTocMsg15 *msg = generateMessage();
+        EV << msg << "\n";
+        numSent++;
         scheduleAt(0.0, msg);
     }
 }
@@ -90,6 +95,13 @@ void Txc15::handleMessage(cMessage *msg)
         // We need to forward the message.
         forwardMessage(ttmsg);
     }
+}
+
+void Txc15::refreshDisplay() const
+{
+    char buf[40];
+    sprintf(buf, "rcvd:%d sent:%d", numReceived, numSent);
+    getDisplayString().setTagArg("t", 0, buf);
 }
 
 TicTocMsg15 *Txc15::generateMessage()
