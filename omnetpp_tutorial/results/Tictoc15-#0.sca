@@ -1,0 +1,210 @@
+version 2
+run Tictoc15-0-20230807-17:19:43-3177
+attr configname Tictoc15
+attr datetime 20230807-17:19:43
+attr experiment Tictoc15
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Tictoc15
+attr processid 3177
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Tictoc15.tic[0] #sent 2
+scalar Tictoc15.tic[0] #received 1
+statistic Tictoc15.tic[0] "hop count"
+field count 1
+field mean 11
+field stddev -nan
+field min 11
+field max 11
+field sum 11
+field sqrsum 121
+attr type int
+bin	-inf	0
+bin	0	0
+bin	1	0
+bin	2	0
+bin	3	0
+bin	4	0
+bin	5	0
+bin	6	0
+bin	7	0
+bin	8	0
+bin	9	0
+bin	10	0
+bin	11	1
+bin	12	0
+bin	13	0
+bin	14	0
+bin	15	0
+bin	16	0
+bin	17	0
+scalar Tictoc15.tic[1] #sent 0
+scalar Tictoc15.tic[1] #received 0
+statistic Tictoc15.tic[1] "hop count"
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr type int
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar Tictoc15.tic[2] #sent 0
+scalar Tictoc15.tic[2] #received 0
+statistic Tictoc15.tic[2] "hop count"
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr type int
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar Tictoc15.tic[3] #sent 1
+scalar Tictoc15.tic[3] #received 1
+statistic Tictoc15.tic[3] "hop count"
+field count 1
+field mean 45
+field stddev -nan
+field min 45
+field max 45
+field sum 45
+field sqrsum 2025
+attr type int
+bin	-inf	0
+bin	0	0
+bin	1	0
+bin	2	0
+bin	3	0
+bin	4	0
+bin	5	0
+bin	6	0
+bin	7	0
+bin	8	0
+bin	9	0
+bin	10	0
+bin	11	0
+bin	12	0
+bin	13	0
+bin	14	0
+bin	15	0
+bin	16	0
+bin	17	0
+bin	18	0
+bin	19	0
+bin	20	0
+bin	21	0
+bin	22	0
+bin	23	0
+bin	24	0
+bin	25	0
+bin	26	0
+bin	27	0
+bin	28	0
+bin	29	0
+bin	30	0
+bin	31	0
+bin	32	0
+bin	33	0
+bin	34	0
+bin	35	0
+bin	36	0
+bin	37	0
+bin	38	0
+bin	39	0
+bin	40	0
+bin	41	0
+bin	42	0
+bin	43	0
+bin	44	0
+bin	45	1
+bin	46	0
+bin	47	0
+bin	48	0
+bin	49	0
+bin	50	0
+bin	51	0
+bin	52	0
+bin	53	0
+bin	54	0
+bin	55	0
+bin	56	0
+bin	57	0
+bin	58	0
+bin	59	0
+bin	60	0
+bin	61	0
+bin	62	0
+bin	63	0
+bin	64	0
+bin	65	0
+bin	66	0
+bin	67	0
+bin	68	0
+scalar Tictoc15.tic[4] #sent 0
+scalar Tictoc15.tic[4] #received 0
+statistic Tictoc15.tic[4] "hop count"
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr type int
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar Tictoc15.tic[5] #sent 1
+scalar Tictoc15.tic[5] #received 1
+statistic Tictoc15.tic[5] "hop count"
+field count 1
+field mean 17
+field stddev -nan
+field min 17
+field max 17
+field sum 17
+field sqrsum 289
+attr type int
+bin	-inf	0
+bin	0	0
+bin	1	0
+bin	2	0
+bin	3	0
+bin	4	0
+bin	5	0
+bin	6	0
+bin	7	0
+bin	8	0
+bin	9	0
+bin	10	0
+bin	11	0
+bin	12	0
+bin	13	0
+bin	14	0
+bin	15	0
+bin	16	0
+bin	17	1
+bin	18	0
+bin	19	0
+bin	20	0
+bin	21	0
+bin	22	0
+bin	23	0
+bin	24	0
+bin	25	0
+bin	26	0
+
